@@ -169,10 +169,10 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 
         },
         getWrites: () => {
-            dispatch(writeApi('http://localhost:8080/demo/write'))
+            dispatch(writeApi('http://52.15.206.216:8080/demo/write'))
         },
         getReads: () => {
-            dispatch(readApi('http://localhost:8080/demo/read'))
+            dispatch(readApi('http://52.15.206.216:8080/demo/read'))
         },
         dropOneNode: () => {
             dispatch(dropOneNode())

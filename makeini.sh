@@ -9,7 +9,7 @@ if [ -z "$1" ]; then
 fi
 
 cp $template $inifile
-opscenter=localhost
+opscenter=52.15.206.216
 if [ `echo $2 | wc -c` -gt 2 ]; then
   opscenter=$2
 fi

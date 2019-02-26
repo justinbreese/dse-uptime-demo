@@ -15,7 +15,7 @@ fi
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # Mac OSX
     HOST_IP=$(docker run --net=host debian:jessie ip addr show|grep inet|grep eth0|awk '{print $2}'|awk -F'/' '{print $1}')
-    export IP=localhost
+    export IP=52.15.206.216
 fi
 
 cd ui
